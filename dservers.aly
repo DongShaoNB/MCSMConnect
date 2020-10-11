@@ -1,0 +1,28 @@
+{
+  LinearLayout;
+  layout_height="fill";
+  orientation="vertical";
+  layout_width="fill";
+  {
+    TextView;
+    textColor="0xFF00FF00";
+    layout_width="match_parent";
+    textSize="30";
+    gravity="center";
+    backgroundColor="0xFFFF00FF";
+    text="删除服务器";
+  };
+  {
+    EditText;
+    hint="服务器名称";
+    id="sername";
+    layout_width="match_parent";
+  };
+  {
+    Button;
+    id="dels";
+    layout_width="match_parent";
+    backgroundColor="0xFF00FF00";
+    text="删除";
+  };
+};

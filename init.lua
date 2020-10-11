@@ -1,0 +1,21 @@
+--名称
+appname="MCSMConnect"
+--版本号
+appver="1.0.1"
+--版本
+appcode="2"
+--SDK
+appsdk="21"
+--包名
+packagename="cn.mcsm.ds.connect"
+--调试模式
+debugmode=true
+--应用权限
+user_permission={
+  "INTERNET",
+  "WRITE_EXTERNAL_STORAGE",
+}
+--跳过编译
+skip_compilation={
+
+}

@@ -1,0 +1,57 @@
+{
+  LinearLayout;
+  layout_height="fill";
+  layout_width="fill";
+  orientation="vertical";
+  {
+    LinearLayout;
+    layout_width="fill";
+    layout_height="45dp";
+    backgroundColor="0xFFFF00FF";
+    orientation="vertical";
+    {
+      TextView;
+      text="面板信息设置";
+      layout_width="match_parent";
+      gravity="center";
+      layout_height="match_parent";
+      textColor="0xFF00FF00";
+      textSize="30";
+    };
+  };
+  {
+    TextView;
+    textColor="0xFFFF0000";
+    text="MCSM更新到8.6.11的新功能，可以使用API进行一系列操作，KEY可以前往用户管理查看";
+  };
+  {
+    EditText;
+    id="mbhttp";
+    layout_width="match_parent";
+    hint="网页地址(http://.....:23333/)";
+  };
+  {
+    EditText;
+    id="mbkey";
+    layout_width="match_parent";
+    hint="API KEY";
+  };
+  {
+    Button;
+    id="save";
+    layout_width="match_parent";
+    text="保存";
+    backgroundColor="0xFF00FF00";
+  };
+  {
+    TextView;
+    textColor="0xFFFF0000";
+    text=[==[API 使用 API Key 来进行访问，拥有 API Key 后将视为拥有相应账号的全部权限，API Key 可以在用户管理界面看见。
+
+若 API Key 是来自管理账号，则拥有完全的 创建/删除/开启/关闭服务器，创建/删除用户，获取所有用户所有服务器信息与列表等。
+
+若 API Key 是来自普通账号，则只能管理其拥有的服务器，只能对拥有的服务器获取信息，执行命令，开启关闭等。
+(截取于GitHub的API文档)]==];
+    textSize="15sp";
+  };
+};
